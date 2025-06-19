@@ -22,7 +22,7 @@
 # Import necessary theoretical frameworks and a module representing human experience.
 # Haraway: Refers to Donna Haraway's Cyborg Manifesto, central to the hybrid identity.
 # Bakhtin: Refers to Mikhail Bakhtin's concept of Heteroglossia, crucial for multi-voiced analysis.
-import external_theories as Haraway, Bakhtin
+import theories as Haraway, Bakhtin
 
 from theories import Haraway, Bakhtin
 import human_experience as self
@@ -90,7 +90,7 @@ class CyborgCritic:
         # This handles the objective, logical, and networked processing.
         self.machine_shell = {
             "processor": "LogicEngine_v2.0", # The analytical engine for structured thought.
-            "network_interface": "Web_Medium" # How the critic interacts with and draws from the digital world.
+            "network_interface": "Web_Medium", # How the critic interacts with and draws from the digital world.
             "dependencies": [Haraway.Cyborg, Bakhtin.Heteroglossia] # The core theoretical underpinnings.
         }
         print(f"CyborgCritic object '{self.human_ghost['name']}' instantiated successfully.")

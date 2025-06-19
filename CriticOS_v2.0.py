@@ -54,13 +54,13 @@ except FragmentationError as e:
     # Print the error message, indicating the system's failure.
     print(f"SYSTEM CRASH: {e}")
     print("REBOOTING... Initializing fallback protocols:")
-    # These are 'fallback' thoughts, representing the raw, untranslated
+    # These are "fallback" thoughts, representing the raw, untranslated
     # linguistic fragments and frustrations from "The Critic",
     # that emerge when the unified facade breaks down.
-    print(" > 0x09AE: ")
-    print(" > 0x09AC: ")
-    print(" > 0x3081: ")
-    print(" > 0x09A7: ")
+    print(" > 0x09AE: मैं इतना क्यों सोच रहा हूँ?") # Hindi: Why am I thinking so much?
+    print(" > 0x09AC: Critic মানে?") # Bengali: Critic means?
+    print(" > 0x3081: め\n   ん\n   ど\n   く\n   せ\n   え") # Japanese: Annoying/troublesome (visual/conceptual text)
+    print(" > 0x09A7: ধুর!") # Bengali: Ugh! (expression of frustration)
     print("\n--- KERNEL PANIC. REBOOT COMPLETE. INITIALIZING CYBORG_CRITIC CLASS ---")
 
 # COGNITION MATRIX: System Upgrade; Defining the revolutionary Cyborg Critic Class.
@@ -78,9 +78,11 @@ class CyborgCritic:
             "name": name, # The identity or persona of this new critic.
             "memory_cache": ["art", "history", "personal_anecdotes"], # Stored human experiences and knowledge.
             "language_packs": { # Different linguistic and conceptual lenses.
-                "en": "English (Default/Colonialism)", # Standard analytical prose.
-                "hi": "Hindi (Intuitive/also PostColonialism)", # For emotional depth and intuitive insights.
-                "bn": "Bengali (Whimsical/Comedic Relief)", # For .
+                # These language packs now explicitly reflect the politics of language,
+                # referencing colonial and postcolonial linguistic dominance and specific thematic roles.
+                "en": "English (Default1/Colonialism)", # Standard analytical prose, acknowledging its historical context.
+                "hi": "Hindi (Default2/PostColonialism)", # For emotional depth and intuitive insights, framed in a postcolonial context.
+                "bn": "Bengali (Whimsical/Comedic Relief)", # Assigned a specific thematic role for varied expression.
                 "jp": "Japanese (Aesthetic/Conceptual)" # For aesthetic appreciation and unique conceptual frameworks.
             }
         }
@@ -133,7 +135,7 @@ def perform_critique(self, artwork):
     # This thread represents a unique, deeply personal datum, opaque to external logic.
     # It acknowledges the existence of information known only to the 'ghost' component.
     print(">>> THREAD 4: Core_Anomaly_0x00E")
-    # '0x00E' is hexadecimal for 14, referencing the 14th line in "The Critic".
+    # 0x00E is hexadecimal for 14, referencing the 14th line in "The Critic".
     # This line directly quotes the untranslatable text from "The Critic".
     print("...... Encountered 'Ka theisiam kei...' from source line 14. This datum carries a unique, untraceable signature.") 
     # Explains that its true meaning is deeply internal and beyond machine analysis.
@@ -163,5 +165,4 @@ if __name__ == "__main__":
     print("FINAL_OUTPUT: This performance is my critique.") # The process itself is a critical output.
     print(">>> END OF TRANSMISSION <<<")
 
-# [1] Haraway, Donna J.. Manifestly Haraway, p. 55,
-# University of Minnesota Press, 2016. ProQuest Ebook Central,
+# [1] Haraway, Donna J. A Cyborg Manifesto, p. 55, University of Minnesota Press, 2016. ProQuest Ebook Central.

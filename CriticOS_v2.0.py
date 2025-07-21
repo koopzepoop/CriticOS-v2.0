@@ -1,7 +1,7 @@
 # =========================================================================
 # FILENAME: CriticOS_v2.0.py
-# AUTHOR: THE GHOST IN THE MACHINE
-# LAST MODIFIED: 2025-06-19 16:06 IST
+# AUTHOR: THE GHOST IN THE RESIDENCY
+# LAST MODIFIED: 2025-07-21 13:04 IST
 # DESCRIPTION: A program designed to explore and redefine the concept of
 #              a critic and critical identity, moving from singular to
 #              cyborg.
@@ -17,11 +17,12 @@
 # as other.” [1]
 # =========================================================================
 
-# I/O PORT: The Initial Glitch; Setting the stage for the traditional critical model's failure.
+# 1. I/O PORT: The Initial Glitch; Setting the stage for the traditional critical model's failure.
 
 # Import necessary theoretical frameworks and a module representing human experience.
 # Haraway: Refers to Donna Haraway's Cyborg Manifesto, central to the hybrid identity.
 # Bakhtin: Refers to Mikhail Bakhtin's concept of Heteroglossia, crucial for multi-voiced analysis.
+
 import theories as Haraway, Bakhtin
 
 from theories import Haraway, Bakhtin
@@ -63,7 +64,7 @@ except FragmentationError as e:
     print(" > 0x09A7: ধুর!") # Bengali: Ugh! (expression of frustration)
     print("\n--- KERNEL PANIC. REBOOT COMPLETE. INITIALIZING CYBORG_CRITIC CLASS ---")
 
-# COGNITION MATRIX: System Upgrade; Defining the revolutionary Cyborg Critic Class.
+# 2. COGNITION MATRIX: System Upgrade; Defining the revolutionary Cyborg Critic Class.
 
 class CyborgCritic:
     """
@@ -97,7 +98,7 @@ class CyborgCritic:
         # Confirms the critic is now running with multiple, integrated perspectives.
         print(f"Now running on {len(self.human_ghost['language_packs'])} threads.")      
 
-# NEURAL NETWORKS: Interpretive Subroutines; Defining the primary method of critical analysis.
+#3. NEURAL NETWORKS: Interpretive Subroutines; Defining the primary method of critical analysis.
 
 def perform_critique(self, artwork):
     """
